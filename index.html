@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Конвертер валют</h1>
+    <div>
+      <label>Валюта:</label>
+      <select class="currency">
+        <option value="80,50">USD</option>
+        <option value="0,12">KZT</option>
+        <option value="1,29">RUB</option>
+        <option value="84,70">EUR</option>
+      </select>
+    </div>
+    <div class="form__control">
+      <div>
+        <label>Акчанын суммасы: </label>
+        <input class="moneyAmount" type="number" />
+        <span class="currentCurrency"></span>=
+        <input class="targetMoneyAmount" type="number" />
+        <span>KGS</span>
+      </div>
+    </div>
+    <script src="add.js"></script>
+  </body>
+</html>
